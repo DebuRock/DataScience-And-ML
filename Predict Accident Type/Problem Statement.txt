@@ -1,0 +1,18 @@
+Consider National Highway Authority of India (NHAI) provides you a real accidental data set of Bangalore highway of India. The size of data set is (83 x 8). Apply suitable Machine Learning technique to address following problems.
+1. Forecast Accident type(variable C in the data set) for year 2015 based on the observations given for year 2014 in the data set. Analyse the predictive results achieved.
+
+[Hint:-
+
+LHS stands for Left-hand sight
+RHS stands for Right-hand side
+Ch. stands for Chainage which is an imaginary line used to measure distance, often corresponding to the centre of a straight road.
+KM/km/KMS is kilometres
+ROW - Right of Way - the legal right, established by usage or grant, to pass along a specific route through grounds or property belonging to another, for example, to remove obstructions to make roads
+MCW means the main carriageway
+Also, 103+123 km means 103 km and 123 metres, or 103.123 metres.
+Please note for solving & understanding convenience, either convert "+" values into "." format . Check that the entire column values in the same format ]
+
+2. Use feature Location in the data set to identify the prone area of major accidents.
+3. Identify top 5 important features for variable Accident type(variable C in the data set)
+
+\d{1,15}(\.\d{1,3})?
